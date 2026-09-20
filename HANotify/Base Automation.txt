@@ -1,0 +1,11 @@
+alias: New automation
+description: ''
+triggers: []
+conditions: []
+actions:
+  - data:
+      topic: notify/test
+      payload: '{{ states(''input_text.notify_laptop'') }}'
+    action: mqtt.publish
+mode: single
+
