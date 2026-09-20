@@ -1,5 +1,6 @@
 # The Isaac Archive
-# Full of stuff that I made (with or without AI) for anyone to Fork (Please mention me in readme.md) or use
+Full of stuff that I made (with or without AI) for anyone to Fork (Please mention me in readme.md) or use.
+
 If programs do not work, they may need modifying to your system or dependencies may be needed. I would recommend using your AI of choice to solve it.
 
 Jarvis.py - This is a Jarvis like bot made for ubuntu. Once downloaded set your telegram bot ID (@BotFather), your Telegram User ID, your desired pincode (Currently 1234) and set your directory for your unauthjarvis.txt file. Additional resources may be required.
