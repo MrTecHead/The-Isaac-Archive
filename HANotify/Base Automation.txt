@@ -1,11 +1,11 @@
-alias: New automation
-description: ''
+alias: Notify Computer
+description: 'Notify computer'
 triggers: []
 conditions: []
 actions:
   - data:
       topic: notify/test
-      payload: '{{ states(''input_text.notify_laptop'') }}'
+      payload: Test
     action: mqtt.publish
 mode: single
 
