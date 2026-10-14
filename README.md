@@ -1,7 +1,13 @@
+<div align="center">
+
+<img width="256" height="256" alt="Isaac" src="https://raw.githubusercontent.com/MrTecHead/The-Isaac-Archive/refs/heads/main/IMG_5024.JPG" />
+
 # The Isaac Archive
 Full of stuff that I made (with or without AI) for anyone to Fork (Please mention me in readme.md) or use.
 
 If programs do not work, they may need modifying to your system or dependencies may be needed. I would recommend using your AI of choice to solve it.
+
+</div>
 
 ---
 
@@ -14,3 +20,11 @@ Syslogs - Inside there are 3 files - syslogs - Ubuntu laptop.py which was made f
 ---
 
 HANotify - This useful tool allows sending notifications to a Ubutntu 26 device. Run the 2 commands specified in the README.txt to install all the required dependencies. Then in home assistant, go to Settings -> Automatons & Scenes -> Create Automation -> Create New Automation -> 3 dots in top right corner -> Edit in YMAL and paste in the Base Automation script in the downloaded folder. Finally, in your ha_notify folder, edit it and ensure the MQTT topics are the same (currently Notify/test) and enter in the machine thats running Home Assistant's IP (ifconfig in terminal) and press Ctrl + S to save. To run it, go to terminal and type 'cd /home/YOURUSER/Downloads/HANotify'(change to the download location), then run 'python 3 ha_notify.py'. If everything works, when you run the automation it will send a notification to your computer.
+
+---
+
+[Bus Spotting](github.com/mrtechead/bus-spotting) - Bus Spotting is an Android App designed for bus spotters to take or upload pictures of busses, organised by bus models for operators all over the uk.
+
+---
+
+[Countify](https://github.com/MrTecHead/Countify) - Countify is an ad-free countdown app designed for android phones to allow for a simple yet effective countdown without any paid or 'pro' features.
